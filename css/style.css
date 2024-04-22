@@ -47,19 +47,31 @@ body{
     margin-bottom: 20px;
 }
 
-.button a{
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
     text-decoration: none;
-    font-size: 1rem;
-    color: #111;
-}
-
-/*** Info button ***/
-.btn-info {
-    background: hsl(228, 100%, 54%)
-    color( hsl(214,100%,44%))
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
-  .btn-info:hover {
-    background: hsl(228, 100%, 54%);
+  
+  .button1 {
+    background-color: black; 
+    color: white; 
+    border: 2px solid #04AA6D;
+    border-radius: 12px;
+  }
+
+  .button1:hover {
+    background-color: #04AA6D;
+    color: black;
+    border-radius: 12px;
   }
 
 @media screen and (max-width:574px){
@@ -71,9 +83,5 @@ body{
     }
     .description{
         font-size: 1rem;
-    }
-    
-    .button a{
-        font-size: .5rem;
     }
 }
