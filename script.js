@@ -26,7 +26,7 @@ function updateCountdown() {
         var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
         // Update elemen countdown di pojok kiri atas halaman
-        document.getElementById("countdown").innerText = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        document.getElementById("countdown").innerText = `${days} hari ${hours} jam ${minutes} menit ${seconds} detik`;
 
         // Perbarui setiap detik
         setTimeout(updateCountdown, 1000);
